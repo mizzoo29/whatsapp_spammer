@@ -1,4 +1,3 @@
-function whatsAppText(message) {
 	window.InputEvent = window.Event || window.InputEvent;
 	var event = new InputEvent('input', {bubbles: true});
 	var textbox = document.getElementsByClassName('_2S1VP')[0];
@@ -12,7 +11,7 @@ function spam(message, loop) {
 	
 	for (var i = 0; i < loop; i++){
 		window.setTimeout(function(){
-			whatsAppText(message);
+			whatsAppText(puttana);
 		}, delay*i);
 	}
 }
